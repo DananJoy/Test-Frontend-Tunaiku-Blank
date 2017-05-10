@@ -86,17 +86,23 @@ footer {
   p, a {
     color: #FFF !important;
     line-height: 25px;
+    font-size: 1em;
+  }
+  #footer-logo {
+    padding: 10px 0px 30px 0px;
   }
   img {
-    padding: 15px 0px 30px 0px;
+    padding: 0px 0px 10px 0px;
   }
   ul {
     list-style: none;
     display: inline;
+    float: right;
   }
   li {
-    float: right;
     margin: 15px;
+    vertical-align: middle;
+    float: left;
   }
 }
 
@@ -124,6 +130,13 @@ footer {
     }
     button {
       margin: 0;
+    }
+  }
+
+  footer {
+    li {
+      margin: 4px;
+      padding: 0;
     }
   }
 }
