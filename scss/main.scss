@@ -45,6 +45,9 @@ nav {
   h1 {
     font-size: 3.5em;
   }
+  img {
+    margin: 15px;
+  }
   .btn-md {
     padding: 10px 30px 10px 30px;
     border-radius: 10px;
@@ -134,9 +137,23 @@ footer {
   }
 
   footer {
-    li {
-      margin: 4px;
+      text-align: center !important;
+      margin: 0;
       padding: 0;
-    }
+      #footer-menu {
+        padding-right: 20px;
+        li {
+          margin: 9px;
+        }
+      }
+      #footer-logo {
+        padding-top: 35px;
+      }
+      #footer-social {
+        padding-right: 55px;
+      }
+      p {
+        text-align: center !important;
+      }
   }
 }
